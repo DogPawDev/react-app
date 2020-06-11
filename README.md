@@ -7,3 +7,5 @@ pure.html 태그 내용을 app.js에서 컴포넌트로 변환
 pure.html 내용 전부 컴포넌트로 변환
 
 props 사용을 통한 재사용성 증가
+
+component 파일로 분리
