@@ -3,3 +3,5 @@
 pure.html 생성 - 리액트의 필요성 예시
 
 pure.html 태그 내용을 app.js에서 컴포넌트로 변환 
+
+pure.html 내용 전부 컴포넌트로 변환
