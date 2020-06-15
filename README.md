@@ -11,3 +11,6 @@ props 사용을 통한 재사용성 증가
 component 파일로 분리
 
 state의 기본 개념
+
+key의 사용
+
