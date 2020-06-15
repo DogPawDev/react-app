@@ -15,3 +15,5 @@ state의 기본 개념
 key의 사용
 
 이벤트 사용 전 state, props와 render의 관계
+
+이벤트 설치
