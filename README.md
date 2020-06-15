@@ -35,3 +35,5 @@ create 구현 : form
 create 구현 : contents 변경 - 권장하지 않는 방법
 
 create 구현 : contents 변경 - concat을 이용한 방법 - 권장
+
+create 구현 : shouldComponentUpdate - concat을 사용하는 이유 - 성능 개선
