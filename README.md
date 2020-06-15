@@ -17,3 +17,5 @@ key의 사용
 이벤트 사용 전 state, props와 render의 관계
 
 이벤트 설치
+
+이벤트 state 변경
