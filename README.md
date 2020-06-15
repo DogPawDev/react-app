@@ -31,3 +31,5 @@ create 구현 : mode 전환 기능
 create 구현 : form
 
  create 구현 : onSubmit 이벤트
+
+create 구현 : contents 변경 - 권장하지 않는 방법

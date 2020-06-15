@@ -14,6 +14,7 @@ class App extends Component {
 
   constructor(props){
     super(props);
+   
     this.state ={
       mode:"create",
       selected_content_id:1,
@@ -27,7 +28,11 @@ class App extends Component {
         {id:2, title:'CSS',desc:'CSS is for design'},
         {id:3, title:'JavaScript',desc:'JavaScript is for interactive'}
       ]
+
+      
     };
+
+    this.max_content_id = this.state.contents.length+1;
   }
 
   render(){
@@ -58,8 +63,22 @@ class App extends Component {
 
     } else if(this.state.mode === 'create'){
       _article = <CreateContent data={this.state.contents} onSubmit={function(_title,_desc){
+
+        this.state.contents.push({
+          id:this.max_content_id,
+          title:_title,
+          desc:_desc
+        });
+        this.max_content_id++;
+        this.setState({
+          contents:this.state.contents
+        });
+
         console.log(_title,_desc);
-      }}></CreateContent>
+
+
+
+      }.bind(this)}></CreateContent>
     }
     return(
       <div className="App">
